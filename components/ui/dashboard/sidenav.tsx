@@ -5,7 +5,7 @@ import { Bell, Volume } from 'lucide-react';
 
 export default function SideNav() {
   return (
-    <div className="flex h-full flex-col px-3 py-4 md:px-2 bg-gray-100">
+    <div className="flex md:w-40 h-full flex-col px-1 py-4 md:px-2 bg-gray-100">
       <Link
         className="mb-2 flex h-20 items-end justify-start rounded-md  p-4 md:h-40"
         href="/"
